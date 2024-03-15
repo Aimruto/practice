@@ -1,0 +1,40 @@
+.calculator-container {
+    background: linear-gradient(135deg, #fffff0, #ffff); /* Yellow to white gradient */
+    padding: 20px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calculator-container h2 {
+    color: #333;
+  }
+  
+  .calculator-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  .calculator-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .calculator-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .calculator-container div {
+    margin-bottom: 10px;
+  }
+  
+  .calculator-container label {
+    font-weight: bold;
+  }
+  

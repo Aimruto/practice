@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Todo from './components/Todo';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Calculator from './components/Calculator';
+import './App.css'; // Import CSS file for styling
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="grid-container">
+        <div className="header">
+          <Navbar />
+        </div>
+        <div className='main-container'>
+          <div className="calculator">
+            <Calculator />
+          </div>
+          <div className='todo'>
+            <Todo />
+          </div>
+          <div className='todo2'>
+          <Todo />
+
+          </div>
+        </div>
+
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
