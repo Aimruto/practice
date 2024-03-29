@@ -1,0 +1,33 @@
+.recommendation-container {
+
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  padding-top: 4rem;
+  
+  margin-top: 1rem;
+  background: #44318D;
+  width: 98.5%; /* Spread across the entire grid block */
+  height: 50vh;
+   /* Added padding for better appearance */
+}
+.health-head{
+  padding-bottom: 3rem;
+}
+.recommendation-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.recommendation-button:hover {
+  transform:scale(1.05);
+
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+}
